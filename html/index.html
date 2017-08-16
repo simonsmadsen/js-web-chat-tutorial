@@ -1,0 +1,16 @@
+<h4 style="text-align: center" id="connected">Connected: {{connected}}</h4>
+<div id="content">
+  <div id="message-wrapper">
+     <ul id="messages">
+       {{#each messages}}
+       <li>{{name}}: {{message}}</li>
+       {{/each}}
+
+     </ul>
+  </div>
+  <div id="write-wrapper">
+    <input id="name" required type="input" placeholder="name"  />
+    <input id="msg" required type="input"  placeholder="message" />
+    <button id="send">Send</button>
+  </div>
+</div>
