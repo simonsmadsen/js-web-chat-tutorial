@@ -1,5 +1,5 @@
 #1) Install modules
-  - npm install modules
+  - npm install
 
 #2) Get .env file (js-web-cli)
   - js-web env
